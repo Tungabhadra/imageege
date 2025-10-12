@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="suggested_prompts">
+        <item>Sharpen the subject and enhance colors</item>
+        <item>Create a cinematic depth of field</item>
+        <item>Convert to a watercolor painting style</item>
+        <item>Swap background for a sunset beach</item>
+        <item>Add soft studio lighting</item>
+        <item>Upscale and remove noise</item>
+    </string-array>
+</resources>

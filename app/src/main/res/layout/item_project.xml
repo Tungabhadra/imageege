@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardBackgroundColor="@color/pure_white"
+    app:cardCornerRadius="24dp"
+    app:strokeColor="@color/glass_stroke"
+    app:strokeWidth="2dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Project Name"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:id="@+id/project_image_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0 images"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/project_delete_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Delete project"
+            app:tint="@color/text_secondary" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
